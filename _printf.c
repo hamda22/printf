@@ -50,19 +50,3 @@ int _printf(const char *format, ...)
 
 	return (n);
 }
-/**
- * main - Entry point
- *
- * Return: Always 0
- */
-int main(void)
-{
-	int n = printf("%s", "Hello");
-	int a = printf("%c", 'H');
-	int b = printf("%%");
-
-	printf("\n%d\n", n);
-	printf("\n%d\n", a);
-	printf("\n%d\n", b);
-	return (0);
-}
