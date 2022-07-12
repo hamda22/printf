@@ -1,0 +1,22 @@
+_printf 3 “12 July 2022” “1.0" “Program Manual for _printf”
+ NAME
+ _printf - formatted output conversion and print data 
+SYNOPSIS
+
+ printf (FORMAT, ARGUMENT)...
+
+“#include ‘main.h’
+ “#include <stdarg.h>”
+ “#include <unistd.h>”
+
+ “int _printf(const char *format, ...);
+DESCRIPTION:
+
+	The functions in the printf() family produce output according to
+       a format as described below.  The functions printf() and
+       vprintf() write output to stdout, the standard output stream;
+       fprintf() and vfprintf() write output to the given output stream;
+       sprintf(), snprintf(), vsprintf(), and vsnprintf() write to the
+       character string str.
+AUTHORS:
+Mohammed Adde,Hamda ELmi
