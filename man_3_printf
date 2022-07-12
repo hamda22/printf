@@ -1,6 +1,6 @@
 _printf 3 “12 July 2022” “1.0" “Program Manual for _printf”
  NAME
- _printf - formatted output conversion and print data 
+ _printf - formatted output conversion and print data
 SYNOPSIS
 
  printf (FORMAT, ARGUMENT)...
